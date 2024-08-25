@@ -1,0 +1,178 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/39440036-8720-4d01-81db-1d3b15c36162/GE-en-20240820-TRIFECTA-perspective_WEB_86a46854-6192-4870-8701-40e3a26eb189_large.jpg");
+}
+header nav img {
+  width: 148px;
+  height: 40px;
+  color: red;
+  margin-left: 317.172px;
+  margin-top: 10px;
+}
+main article {
+  width: 450px;
+  height: 802px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+main article div {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+main article h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+main article input {
+  width: 314px;
+  height: 56px;
+
+  background-color: rgba(1, 5, 8, 0.6);
+  border: 0.1px solid grey;
+  border-radius: 4px;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: white;
+  opacity: 0.6;
+}
+main article form .password {
+  position: relative;
+}
+main article form i {
+  position: absolute;
+  color: white;
+  right: 20px;
+  top: 150px;
+}
+main article form button {
+  width: 314px;
+  height: 40px;
+  background-color: red;
+  margin: auto;
+  margin: 10px auto;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  transition: 0.5s;
+}
+main article form button:hover {
+  background-color: #c11119;
+}
+main article .first-child {
+  color: #ffffffb3;
+  text-align: center;
+
+  font-size: 16px;
+}
+main article .sign-in {
+  width: 314px;
+  height: 40px;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+  border: none;
+  background-color: rgba(47, 47, 47, 0.6);
+}
+main article .forgot-password {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+
+  font-size: 16px;
+}
+main article .forgot-password:hover {
+  text-decoration: underline;
+  color: grey;
+}
+main article .checkbox {
+  width: 15px;
+  height: 15px;
+  margin-top: 25px;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+main article .checkbox:hover {
+  border: 1px solid white;
+}
+main article .new-to-netfix {
+  color: #ffffffb3;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+main article .new-to-netfix a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+main article .new-to-netfix a:hover {
+  text-decoration: underline;
+}
+main article .protected {
+  font-size: 13px;
+  color: #8c8c8c;
+  margin-left: 5px;
+}
+main article .protected a {
+  text-decoration: none;
+  color: #0071eb;
+}
+main article .protected a:hover {
+  text-decoration: underline;
+}
+footer {
+  height: 311px;
+  background-color: black;
+  position: relative;
+}
+footer div {
+  max-width: 975px;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+}
+footer div p a {
+  text-decoration: none;
+  color: #ffffffb3;
+}
+footer div P a:hover {
+  text-decoration: underline;
+}
+footer div .first {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+footer .second {
+  display: flex;
+
+  margin-left: -30px;
+  gap: 240px;
+}
+
+footer div ul li {
+  color: #ffffffb3;
+  text-decoration: underline;
+  list-style: none;
+}
+@media screen and (min-width: 2500px) {
+  body {
+    background-size: cover;
+  }
+
+  footer {
+    margin-top: 130px;
+  }
+}
